@@ -1,4 +1,4 @@
-# Sistema de Reserva de Salas de Estudo Coletivo
+# Sistema de cadastro em eventos
 
 Estrutura retirada do Sallas para o documento de visão
 

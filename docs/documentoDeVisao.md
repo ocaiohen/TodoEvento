@@ -4,48 +4,41 @@ Estrutura retirada do Sallas para o documento de visão
 
 ## 1. Objetivo do Projeto
 
-O sistema **Reserva de Salas de Estudo Coletivo** tem como objetivo facilitar o gerenciamento das reservas das salas de estudo coletivo da Biblioteca do IFRN/CNAT. O sistema substituirá o método de reserva por fichas em papel, permitindo aos discentes e bolsistas uma gestão mais eficiente e facilitada, além de oferecer aos alunos a possibilidade de realizar reservas de salas online.
+O sistema **TodoEvento** tem como objetivo facilitar a divulgação e inscrição em eventos do Instituto Federal do Rio Grande do Norte Campus Natal Central. O sistema resolve o problema da falta de divulgação de eventos que acontecem no campus. Organizadores poderão cadastrar eventos, ver estatísticas simples. Da mesma forma, participantes (visitantes no site) se cadastrarão usando a matrícula no evento.
 
 ## 2. Descrição do Problema
 
-| **Problema** | Falta de um sistema eficiente para gerenciar as reservas de salas de estudo coletivo, que atualmente é feito manualmente com fichas em papel. |
+| **Problema** | Falta de uma divulgação modernizada e centralizada de evento do campus. |
 |--------------|-------------------------------------------------------------------------------------------------------|
-| **Afetando** | Bolsistas, alunos e servidores do IFRN/CNAT. |
-| **Impacto** | Dificuldade no controle das reservas, perda de fichas e falta de informações sobre a disponibilidade das salas. Para os alunos, a necessidade de ir até a biblioteca para saber se há salas disponíveis resulta em perda de tempo e frustração. |
-| **Solução Proposta** | Desenvolver um sistema online onde os alunos possam verificar a disponibilidade das salas e fazer reservas de forma prática e rápida, enquanto os bolsistas e servidores podem gerenciar de forma mais eficiente e segura a utilização das salas. |
+| **Afetando** | Participantes e organizadores. |
+| **Impacto** | Perca de oportunidades de crescimento (ao não conhecer eventos interessantes) e pouco público em eventos. |
+| **Solução Proposta** | Desenvolver um sistema online onde os organizadores cadastrariam eventos para os participantes se cadastrarem. |
 
 ## 3. Descrição dos Usuários
 
 | Nome     | Descrição                                                                 | Responsabilidades                                                                                 |
 |----------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Servidor** | Servidores responsáveis pela coordenação e administração das bibliotecas do campus. | Monitorar e fiscalizar as atividades dos bolsistas, analisar solicitações de reservas, gerenciar advertências aos alunos. |
-| **Bolsista** | Estudantes do IFRN/CNAT que participam do programa de auxílio à formação estudantil e são responsáveis pela reserva das salas. | Controlar as reservas das salas, validar as pré-reservas, entregar kits e registrar possíveis problemas no sistema. |
-| **Aluno** | Estudantes que frequentam a biblioteca e necessitam alugar as salas de estudo coletivo. | Realizar pré-reserva de salas e verificar a disponibilidade das salas online. |
+| **Organizador** | Organizadores (sejam externos ou internos) que desejam cadastrar e gerenciar eventos que ocorerrão no CNAT. | Cadastrar e gerenciar os próprios eventos
+| **Participante** | Membros do IFRN/CNAT (sejam docentes ou discentes) que estejam interessados em procurar e se cadastrar em eventos. | Ver eventos e se cadastrar. |
+
 
 ## 4. Descrição do Ambiente dos Usuários
 
-O sistema de reservas estará disponível online e acessível via navegador em qualquer dispositivo (computadores, tablets e smartphones). Os alunos podem verificar a disponibilidade das salas e realizar pré-reservas de forma online. Os bolsistas e servidores podem gerenciar as reservas e realizar as validações pessoalmente.
+O sistema de eventos estará disponível online e acessível via navegador em qualquer dispositivo (computadores, tablets e smartphones).
 
-- **Servidor e Bolsista** terão acesso contínuo ao sistema para gerenciar as reservas, enquanto os **alunos** poderão acessar o sistema para consultar a disponibilidade e realizar reservas online durante o horário de funcionamento da biblioteca.
-- **Ex-alunos** não terão acesso ao sistema, pois apenas discentes ativos da instituição poderão reservar as salas.
+- **Organizador** acesso livre às seções relativas ao gerenciamentos de seus próprios eventos.
+- **Participante** acesso livre aos eventos cadastrados
 
 ## 5. Principais Necessidades dos Usuários
 
-- **Bolsistas** enfrentam dificuldades no gerenciamento das reservas com o uso de fichas em papel, o que gera perda de tempo e potencial para erros.
-- **Alunos** necessitam de um meio para verificar a disponibilidade das salas sem precisar se deslocar fisicamente até a biblioteca, melhorando a experiência de utilização do espaço.
-- **Servidores** precisam de um sistema para analisar e gerenciar as reservas de maneira mais eficiente e gerar relatórios para a administração.
-
-A solução é um sistema online que facilita o processo de reserva e gerenciamento das salas, além de oferecer uma interface mais amigável e acessível.
+- **Organizador** cadastrar e gerenciar seus próprios eventos.
+- **Participante** procurar e se cadastrar em eventos. 
 
 ## 6. Alternativas Concorrentes
 
-- **Fichas de papel**:
-  - Pontos fortes: Simples de entender e aplicar, não requer infraestrutura tecnológica.
-  - Pontos fracos: Dificuldade na organização e risco de perdas de fichas, dificuldade em gerar relatórios e acessar informações de reservas em tempo real.
-
-- **Planilhas (Excel ou similares)**:
-  - Pontos fortes: Simples, ecológico, e permite a visualização clara das reservas.
-  - Pontos fracos: Falta de automação em processos, risco de edição não autorizada e dificuldade de escalabilidade com o aumento de reservas.
+- **Suap**:
+  - Pontos fortes: já feito e usado pelos alunos.
+  - Pontos fracos: não é feito para isso e muito menos divulgado.
 
 ## 7. Visão Geral do Produto
 
